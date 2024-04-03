@@ -12,11 +12,12 @@
 		CB6DF4D023E4D8C800465158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF4CF23E4D8C800465158 /* ViewController.swift */; };
 		CB6DF4D523E4D8CA00465158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6DF4D423E4D8CA00465158 /* Assets.xcassets */; };
 		CB6DF4D823E4D8CA00465158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6DF4D623E4D8CA00465158 /* LaunchScreen.storyboard */; };
-		CB6DF4E023E4D8DB00465158 /* Main.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = CB6DF4DF23E4D8DB00465158 /* Main.storyboardc */; };
 		CB6DF56023E9FAC000465158 /* FineHomeBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF55F23E9FAC000465158 /* FineHomeBuilding.swift */; };
 		CB6DF56223E9FAD900465158 /* AboutWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF56123E9FAD900465158 /* AboutWrap.swift */; };
 		CB6DF56C23EB689200465158 /* StepCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF56B23EB689200465158 /* StepCalculatorViewController.swift */; };
 		CB6DF56E23EB690300465158 /* StringerAngleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF56D23EB690300465158 /* StringerAngleViewController.swift */; };
+		CBCD7EC52BBDEC350049D6D7 /* SquaringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7EC42BBDEC350049D6D7 /* SquaringCalculator.swift */; };
+		CBCD7EC72BBDED3E0049D6D7 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCD7EC62BBDED3E0049D6D7 /* Main2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +28,12 @@
 		CB6DF4D423E4D8CA00465158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6DF4D723E4D8CA00465158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6DF4D923E4D8CA00465158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB6DF4DF23E4D8DB00465158 /* Main.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; path = Main.storyboardc; sourceTree = "<group>"; };
 		CB6DF55F23E9FAC000465158 /* FineHomeBuilding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FineHomeBuilding.swift; sourceTree = "<group>"; };
 		CB6DF56123E9FAD900465158 /* AboutWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWrap.swift; sourceTree = "<group>"; };
 		CB6DF56B23EB689200465158 /* StepCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCalculatorViewController.swift; sourceTree = "<group>"; };
 		CB6DF56D23EB690300465158 /* StringerAngleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringerAngleViewController.swift; sourceTree = "<group>"; };
+		CBCD7EC42BBDEC350049D6D7 /* SquaringCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaringCalculator.swift; sourceTree = "<group>"; };
+		CBCD7EC62BBDED3E0049D6D7 /* Main2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +66,9 @@
 		CB6DF4CA23E4D8C800465158 /* WRAP-Iowa Ramp Design Aid */ = {
 			isa = PBXGroup;
 			children = (
-				CB6DF4DF23E4D8DB00465158 /* Main.storyboardc */,
+				CBCD7EC62BBDED3E0049D6D7 /* Main2.storyboard */,
 				CB6DF4CF23E4D8C800465158 /* ViewController.swift */,
+				CBCD7EC42BBDEC350049D6D7 /* SquaringCalculator.swift */,
 				CB6DF56B23EB689200465158 /* StepCalculatorViewController.swift */,
 				CB6DF56D23EB690300465158 /* StringerAngleViewController.swift */,
 				CB6DF55F23E9FAC000465158 /* FineHomeBuilding.swift */,
@@ -140,7 +143,7 @@
 			files = (
 				CB6DF4D823E4D8CA00465158 /* LaunchScreen.storyboard in Resources */,
 				CB6DF4D523E4D8CA00465158 /* Assets.xcassets in Resources */,
-				CB6DF4E023E4D8DB00465158 /* Main.storyboardc in Resources */,
+				CBCD7EC72BBDED3E0049D6D7 /* Main2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +161,7 @@
 				CB6DF56023E9FAC000465158 /* FineHomeBuilding.swift in Sources */,
 				CB6DF56C23EB689200465158 /* StepCalculatorViewController.swift in Sources */,
 				CB6DF4CE23E4D8C800465158 /* SceneDelegate.swift in Sources */,
+				CBCD7EC52BBDEC350049D6D7 /* SquaringCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
