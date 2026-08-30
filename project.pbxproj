@@ -16,6 +16,7 @@
 		CB6DF56223E9FAD900465158 /* AboutWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF56123E9FAD900465158 /* AboutWrap.swift */; };
 		CB6DF56C23EB689200465158 /* StepCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF56B23EB689200465158 /* StepCalculatorViewController.swift */; };
 		CB6DF56E23EB690300465158 /* StringerAngleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF56D23EB690300465158 /* StringerAngleViewController.swift */; };
+		CB886C603044A8E2009A2AA5 /* Keyboardawareviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB886C5F3044A8D4009A2AA5 /* Keyboardawareviewcontroller.swift */; };
 		CBCD7EC52BBDEC350049D6D7 /* SquaringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD7EC42BBDEC350049D6D7 /* SquaringCalculator.swift */; };
 		CBCD7EC72BBDED3E0049D6D7 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCD7EC62BBDED3E0049D6D7 /* Main2.storyboard */; };
 		CBFF26823035E23D0096AA10 /* CrossSlopeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF26813035E22F0096AA10 /* CrossSlopeCalculator.swift */; };
@@ -33,6 +34,7 @@
 		CB6DF56123E9FAD900465158 /* AboutWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWrap.swift; sourceTree = "<group>"; };
 		CB6DF56B23EB689200465158 /* StepCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCalculatorViewController.swift; sourceTree = "<group>"; };
 		CB6DF56D23EB690300465158 /* StringerAngleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringerAngleViewController.swift; sourceTree = "<group>"; };
+		CB886C5F3044A8D4009A2AA5 /* Keyboardawareviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboardawareviewcontroller.swift; sourceTree = "<group>"; };
 		CBCD7EC42BBDEC350049D6D7 /* SquaringCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaringCalculator.swift; sourceTree = "<group>"; };
 		CBCD7EC62BBDED3E0049D6D7 /* Main2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
 		CBFF26813035E22F0096AA10 /* CrossSlopeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossSlopeCalculator.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				CBCD7EC62BBDED3E0049D6D7 /* Main2.storyboard */,
+				CB886C5F3044A8D4009A2AA5 /* Keyboardawareviewcontroller.swift */,
 				CBFF26813035E22F0096AA10 /* CrossSlopeCalculator.swift */,
 				CB6DF4CF23E4D8C800465158 /* ViewController.swift */,
 				CBCD7EC42BBDEC350049D6D7 /* SquaringCalculator.swift */,
@@ -163,6 +166,7 @@
 				CB6DF56223E9FAD900465158 /* AboutWrap.swift in Sources */,
 				CB6DF4CC23E4D8C800465158 /* AppDelegate.swift in Sources */,
 				CB6DF56023E9FAC000465158 /* FineHomeBuilding.swift in Sources */,
+				CB886C603044A8E2009A2AA5 /* Keyboardawareviewcontroller.swift in Sources */,
 				CB6DF56C23EB689200465158 /* StepCalculatorViewController.swift in Sources */,
 				CB6DF4CE23E4D8C800465158 /* SceneDelegate.swift in Sources */,
 				CBCD7EC52BBDEC350049D6D7 /* SquaringCalculator.swift in Sources */,
@@ -312,12 +316,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U5DM9D485;
 				INFOPLIST_FILE = "WRAP-Iowa Ramp Design Aid/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.4;
+				MARKETING_VERSION = 3.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WRAP-Iowa-Ramp-Design-Aid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -325,7 +331,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,12 +340,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U5DM9D485;
 				INFOPLIST_FILE = "WRAP-Iowa Ramp Design Aid/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.4;
+				MARKETING_VERSION = 3.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WRAP-Iowa-Ramp-Design-Aid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -347,7 +355,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
