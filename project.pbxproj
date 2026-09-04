@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB281DA53048C7BC00E50545 /* StairRiserCalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB281DA43048C7BC00E50545 /* StairRiserCalculationView.swift */; };
 		CB6DF4CC23E4D8C800465158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF4CB23E4D8C800465158 /* AppDelegate.swift */; };
 		CB6DF4CE23E4D8C800465158 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF4CD23E4D8C800465158 /* SceneDelegate.swift */; };
 		CB6DF4D023E4D8C800465158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF4CF23E4D8C800465158 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB281DA43048C7BC00E50545 /* StairRiserCalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StairRiserCalculationView.swift; sourceTree = "<group>"; };
 		CB6DF4C823E4D8C800465158 /* WRAP-Iowa Ramp Design Aid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WRAP-Iowa Ramp Design Aid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6DF4CB23E4D8C800465158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6DF4CD23E4D8C800465158 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				CB6DF4CF23E4D8C800465158 /* ViewController.swift */,
 				CBCD7EC42BBDEC350049D6D7 /* SquaringCalculator.swift */,
 				CB6DF56B23EB689200465158 /* StepCalculatorViewController.swift */,
+				CB281DA43048C7BC00E50545 /* StairRiserCalculationView.swift */,
 				CB6DF56D23EB690300465158 /* StringerAngleViewController.swift */,
 				CB6DF55F23E9FAC000465158 /* FineHomeBuilding.swift */,
 				CB6DF56123E9FAD900465158 /* AboutWrap.swift */,
@@ -165,6 +168,7 @@
 				CB6DF56E23EB690300465158 /* StringerAngleViewController.swift in Sources */,
 				CB6DF56223E9FAD900465158 /* AboutWrap.swift in Sources */,
 				CB6DF4CC23E4D8C800465158 /* AppDelegate.swift in Sources */,
+				CB281DA53048C7BC00E50545 /* StairRiserCalculationView.swift in Sources */,
 				CB6DF56023E9FAC000465158 /* FineHomeBuilding.swift in Sources */,
 				CB886C603044A8E2009A2AA5 /* Keyboardawareviewcontroller.swift in Sources */,
 				CB6DF56C23EB689200465158 /* StepCalculatorViewController.swift in Sources */,
